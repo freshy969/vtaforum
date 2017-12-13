@@ -1,0 +1,135 @@
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+
+
+.login{
+
+ margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+.loginput{
+margin:0px 10px 20px 20px;
+
+}
+
+.us{
+color:black;
+
+
+}
+
+.vl {
+    border-right: 60px solid green;
+    height: 500px;
+}
+.fave {
+  width: 70px;
+  height: 50px;
+  background: url(images/twitter_fave.png) no-repeat;
+  background-position: 0 0;
+}
+.fave:hover {
+  background-position: -3519px 0;
+  transition: background 1s steps(55);
+}
+
+
+@keyframes fave-heart {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2800px 0;
+  }
+}
+
+.footer{
+
+
+
+}
+
+.button12{
+	position: relative;
+	
+	color:#fff;
+	border:0px;
+	background:#3498db;
+	border:1px solid #3498db;
+    border-radius:2px;
+	padding:5px 10px;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+.button12:hover{
+	color:#3498db;
+	background-color: #fff;
+	border:1px solid #3498db;
+}
+.button_container{
+	position: relative;
+	background:transparent;
+	width:40px;
+	height:40px;
+        float:left;
+	margin:auto;
+}
+
+
+
+a{
+	color: #2980b9;
+    text-decoration: none;
+}
+
+.tagstyle{
+	color:#2980b9;
+	font-weight: bold;
+    text-decoration: none;
+}
+
+.qstyle{
+	color:red;
+	font-weight: bold;
+    text-decoration: none;
+}
+
+.mentionstyle{
+
+color:black;
+	font-weight: bold;
+    text-decoration: none;
+
+}
+.medias{
+
+
+}
+@media screen and (max-width: 620px) {
+	
+	.medias{
+			width:190vw;
+	
+	}
+	
+	
+}
+@media screen and (max-width: 620px) {
+    #container{
+	width:90vw;
+}
+textarea{
+	width:80vw;
+}
+.button_container{
+	width:85vw;
+}
+#hashtag_status{
+	width:85vw;
+}
+}
